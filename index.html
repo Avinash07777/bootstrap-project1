@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <title>page-2</title>
+        <style>
+            body{
+                background-image: url(./img/rabbit.svg);
+                background-repeat: no-repeat;
+                background-position: 332px 605px;
+            }
+            header{
+                height: 70px;
+                background-image: url(./img/Group\ 496.svg);
+                background-repeat: no-repeat;
+                background-position: 22px 22px;
+            }
+            .a7_heading{
+                margin-left: 100px;
+                margin-top: 25px;
+                color:#4A274F;
+                top: 0px;
+                bottom: 0px;
+            }
+            .a7_tbdr{
+                border: 1px dashed black;
+            }
+            .a7_nav{
+                margin-left:100px;
+            }
+            #circle{
+                height: 41px;
+                width: 41px;
+                border-radius: 41px;
+                background-color: #EEE;
+                display: block;
+                position: absolute;
+                top: 0px;
+                bottom:0px;
+                left: 140px;
+            }
+            .a7_username{
+                margin-right: 50px;
+            }
+            .a7_main{
+                height: 800px;
+            }
+            .a7_flexnav{
+                height: 800px;
+                width: 260px;
+                background-color:#442460;
+            }
+            .a7_flexnav > a{
+                color: #C6BCCF;
+                background-color: #56396f;
+                margin: 1px;
+            }
+            .active{
+                background-color: #FFB900 !important;
+                color: black !important;
+            }
+            .a7_contentarea{
+                height: 800px;
+                top: 100px;
+                bottom: 0px;
+                left: 311px;
+                color: #43425D;
+            }
+            .a7_active1{
+                background-color:#7AFD5F;
+            }
+            .a7_active2{
+                background-color: #43425D;
+            }
+            .a7_active3{
+                background-color: #EBAD7D;
+            }
+            .a7_active4{
+                background-color: #7AFD5F;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid a7_container p-0">
+            <header class=" position-relative">
+                <nav class="navbar navbar-expand-lg navbar-light float-end">  
+                      <a class="navbar-brand" href="#"><i class="far fa-life-ring"></i></a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="far fa-comments"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+                          </li>
+                          <li class="nav-item position-relative">
+                            <a class="nav-link a7_username" href="#">Nidhi Bokadiya<i class="fas fa-chevron-down"></i><span id="circle"></span></a>
+                          </li>
+                        </ul>
+                  </nav>
+                <h6 class="a7_heading position-absolute">cognition Lab</h6>
+            </header>
+            <div class="a7_main">
+                <nav class="nav flex-column a7_flexnav position-relative">
+                    <a class="nav-link" aria-current="page" href="#"><i class="fas fa-home m-2"></i>Home</a>
+                    <a class="nav-link active" href="#"><i class="fas fa-chart-bar m-2"></i>Client Dashboard <i class="fas fa-chevron-right m-2"></i></a>
+                    <a class="nav-link" href="#"><i class="far fa-envelope m-2"></i>Solutions</a>
+                    <a class="nav-link" href="#"><i class="fas fa-file-invoice m-2"></i>payment History</a>
+                    <a class="nav-link" href="#"><i class="far fa-life-ring m-2"></i>Resource</a>
+                    <a class="nav-link" href="#"><i class="fas fa-dollar-sign m-2"></i>Pricing</a>
+                    <a class="nav-link" href="#"><i class="fas fa-user m-2"></i>Help</a>
+                    <a class="nav-link" href="#"><i class="fas fa-cog m-2"></i>settings</a>
+                  </nav>
+                  <div class="a7_contentarea position-absolute clearfix">
+                    <h5> Usability </h5>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item">
+                          <a class="nav-link a7_active1 m-3" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link a7_active2 m-3" href="#">In active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link a7_active3 m-3" href="#">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link a7_active4 disabled m-3">Active</a>
+                        </li>
+                      </ul>
+                  </div>
+            </div>
+        </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
